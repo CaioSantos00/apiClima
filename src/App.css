@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,7,103,1) 100%);
+    background-size: 100vw 100vh;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+input {
+    width: 400px;
+    height: 4vh;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    outline: 0;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    outline: 0;
+}
+
+#erro {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#respostaClima {
+    text-align: center;
+}
+
+#division {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nameCity {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#grau {
+    font-size: 4em;
+    font-weight: bold
+}
+
+#imgClima {
+    width: 150px;
+    object-fit: fill;
+}
+
+#descri {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
